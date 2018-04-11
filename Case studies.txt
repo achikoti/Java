@@ -1,0 +1,76 @@
+ cg
+payroll
+
+Associate
+		
+	associateID,yearlyInvestmentUnder80C;
+	firstName,lastName,department,designation,pancard,emailId;	
+	
+BankDetails
+	
+	accountNumber;
+	bankName,ifscCode;	
+
+Salary
+	basicSalary, hra, conveyenceAllowance, 
+	otherAllowance,personalAllowance,monthlyTax, epf,
+	companyPf,gratuity,grossSalary,netSalary
+
+--------------------------------------------------------------------------------------------------------------------
+
+banking
+
+Customer
+
+	customerId,firstName,lastName,mobileNo,emailId,adharNo,pancardNo
+	dateOfBirth
+
+Address
+	city,state,pinCode,country
+
+Account
+	accountNo,accountBalance , accountType, 
+
+Transaction
+	
+	transactionId, timeStamp, amount , transactionType, transactionLocation, 	modeOfTransation, transactionStatus	
+
+--------------------------------------------------------------------------------------------------------------
+
+mobilebilling
+
+	
+Customer
+
+	customerId,firstName,lastName,mobileNo,emailId,adharNo,pancardNo
+	dateOfBirth
+
+Address
+	city,state,pinCode,country
+
+PostPaidAccount
+
+	mobileNo
+
+	
+Plan	
+
+	planID, monthlyRental, freeLocalCalls, freeStdCalls, freeLocalSMS, freeStdSMS, 	freeInternetDataUsageUnits;
+	localCallRate, stdCallRate, localSMSRate, stdSMSRate, internetDataUsageRate;
+	planCircle, planName
+
+Bill
+
+		billID, noOfLocalSMS, noOfStdSMS, noOfLocalCalls, noOfStdCalls, 		internetDataUsageUnits;internetDataUsageUnitsAmount;
+		billMonth, stateGST,centralGST
+		totalBillAmount, localSMSAmount, stdSMSAmount, localCallAmount, 
+		
+	
+
+
+
+
+
+	
+
+
