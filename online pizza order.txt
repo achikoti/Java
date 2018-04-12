@@ -1,0 +1,32 @@
+online pizza order
+
+Customer
+	customerID
+	name
+	mobileNo
+Delivery
+	dateofdelivery
+	deliverystatus
+Discount
+	typeofdiscount
+	discountrate
+	discountvaliditydate
+	discountcode
+adddress
+	city
+	state
+	pinCode
+	country
+transaction
+	mode of transaction
+	transaction status
+	transaction date
+	transactionamount
+dish
+	dishname
+	dishrate
+	dishavailability
+	popularityofdish
+
+
+	
