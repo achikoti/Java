@@ -1,0 +1,14 @@
+StudentNotFoundException
+InvalidAmountException
+InvalidCourseTypeException
+InvalidDiscountTypeException
+OnlineCoachingServicesDownException
+--------------------------------------------------
+Menu:
+1.Courses Offered
+2.Discount Details
+3.Registration
+4.Payment
+5.Contact Us
+6.SignIn
+7.Exit
